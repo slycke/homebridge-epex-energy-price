@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-epex",
+  "name": "homebridge-epex-energy-price",
   "displayName": "EPEX Energy Price Monitor",
   "type": "module",
   "version": "0.0.5",
@@ -7,18 +7,19 @@
   "description": "Monitor EPEX energy prices using the ENTSO-E transparency platform API.",
   "author": "Per Slycke",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/slycke/homebridge-epex#readme",
+  "homepage": "https://github.com/slycke/homebridge-epex-energy-price#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slycke/homebridge-epex.git"
+    "url": "git+https://github.com/slycke/homebridge-epex-energy-price.git"
   },
   "bugs": {
-    "url": "https://github.com/slycke/homebridge-epex/issues"
+    "url": "https://github.com/slycke/homebridge-epex-energy-price/issues"
   },
   "keywords": [
     "homebridge-plugin",
     "epex",
     "energy",
+    "day-ahead",
     "price",
     "electricity"
   ],
