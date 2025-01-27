@@ -1,0 +1,35 @@
+{
+  "pluginAlias": "EPEXMonitor",
+  "pluginType": "platform",
+  "singular": true,
+  "strictValidation": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "required": true,
+        "default": "EPEX Energy Price Monitor"
+      },
+      "refreshInterval": {
+        "title": "Refresh Interval (minutes)",
+        "type": "integer",
+        "default": 15,
+        "description": "How often to poll ENTSO-E for new price data (in minutes). Minimum recommended is 15."
+      },
+      "in_Domain": {
+        "title": "Country / In-Domain (Bidding Zone)",
+        "type": "string",
+        "default": "10YNL----------L",
+        "description": "The ENTSO-E area receiving energy (Bidding Zone Code)."
+      },
+      "apiKey": {
+        "title": "ENTSO-E API Key",
+        "type": "string",
+        "default": "",
+        "description": "If your ENTSO-E account requires an API key, place it here."
+      }
+    }
+  }
+}
